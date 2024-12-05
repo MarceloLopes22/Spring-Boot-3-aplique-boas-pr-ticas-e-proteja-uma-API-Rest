@@ -1,8 +1,6 @@
-package med.voll.api.pacientes;
+package med.voll.api.domain.pacientes;
 
-import jakarta.validation.Valid;
-import med.voll.api.endereco.Endereco;
-import med.voll.api.medico.DadosEndereco;
+import med.voll.api.domain.endereco.Endereco;
 
 public record DadosDetalhamentoPaciente(Long id, String nome, String cpf, String email, String telefone, Endereco endereco) {
 
